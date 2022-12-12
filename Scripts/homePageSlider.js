@@ -7,7 +7,6 @@ function show() {
     document.getElementById("c" + i).style.display = "inline-block";
     document.getElementById("d" + i).style.display = "inline-block";
   }
-
 }
 function moveleft() {
 
@@ -78,3 +77,7 @@ function prev() {
   }
  
 }
+
+
+
+
