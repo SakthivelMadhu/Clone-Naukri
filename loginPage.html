@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/loginPage.css" />
+</head>
+<body>
+    <div id="navbar">
+        <div class="left-nav">
+            <a href="homePage.html" target="_blank">
+                <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png">
+            </a>
+        </div>
+        <div class="middle-nav">
+            <div><a href="">Jobs</a></div>
+            <div><a href="#">Companies</a></div>
+            <div><a href="servicePage.html">Services</a></div>
+            <div><a href="#">Resources</a></div>
+        </div>
+        <div class="right-nav">
+            <a href="loginPage.html"><button class="loginbtn">Login</button></a>
+            <a href="registerPage.html"><button class="registerbtn">Register</button></a>
+            <div id="pipe"></div>
+            <div id="emp">For employers</div><span class="drpdwn"></span>
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div id="container">
+        <div id="feature" class="slide">
+            <h3>New to Naukri</h3>
+            <ul id="point">
+                <li>One click apply using naukri profile.</li>
+                <li>Get relevant job recommendations.</li>
+                <li>Showcase profile to top companies and consultants.</li>
+                <li>Know application status on applied jobs.</li>
+            </ul>
+            <div onclick="window.location.href='registerPage.html'" id="register">Register Now</div>
+            <!-- <input type="submit" value="Register for Free" id="submit"> -->
+            <div id="symRegister">
+                <img src="https://static.naukimg.com/s/5/105/i/register.png" class="registerimage">
+            </div>                 
+        </div>
+        <div id="loginPart" class="slide">
+            <form id="form">
+                <h3>Login</h3>
+                <p>Email ID* </p>
+                <input type="email" placeholder="Enter Email ID" id="email">
+                <p>Password*</p>
+                <input type="password" placeholder="Enter Password" id="pass">                
+                <input type="submit" id="login" value="Login" >
+                <p id="result"></p>
+                <p class="otp">Use OTP to Login</p>                
+                <hr>
+                <div class="socialbtn">
+                    <img class="google-icon" src="https://static.naukimg.com/s/5/105/i/ic-google.png">
+                    <p>Sign in with Google</p>
+                </div>
+            </form>
+        </div>
+    </div> 
+    <script src="Scripts/loginpage.js"></script> 
+    
+</body>
+</html>
