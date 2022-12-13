@@ -24,6 +24,10 @@ h2{
     width: 20%;
     
 }
+/* .left-nav > img{
+    width:100px;
+    height: 50px;
+} */
 .middle-nav{
     display: flex;
     width: 40%;
