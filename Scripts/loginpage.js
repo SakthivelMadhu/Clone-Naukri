@@ -2,7 +2,7 @@ var registerArr = JSON.parse(sessionStorage.getItem("registedUser"));
 document.querySelector("#form").addEventListener("submit", loginSub);
 function loginSub(event){
     event.preventDefault()
-    var userName = document.querySelector("#name").value;
+    // var userName = document.querySelector("#name").value;
     var userEmail = document.querySelector("#email").value;
     var userPass = document.querySelector("#pass").value;
     var flag = false;

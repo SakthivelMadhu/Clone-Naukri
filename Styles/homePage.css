@@ -293,7 +293,7 @@ height: 28px;
   
 }
 .button{
-    background-color:none;
+    background-color:red;
     border: 1px solid red;
     height: 30px;
     width: 30px;
