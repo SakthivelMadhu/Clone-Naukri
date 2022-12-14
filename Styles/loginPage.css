@@ -42,7 +42,7 @@ a:hover::after{
     display: flex;
     margin: 15px;
     width: 20%;
-    
+
 }
 /* .left-nav > img{
     width:100px;
@@ -84,7 +84,7 @@ a:hover::after{
  font-style: normal;
  cursor: pointer;
  /* margin: 0px 16px; */
- 
+
 }
 .registerbtn{
  width: 92px;
@@ -192,7 +192,7 @@ input, #login {
     font-size: 15px;
     padding: 3%;
     width: 90%;
-    cursor: pointer;
+
 }
 
 #form > p{
@@ -217,18 +217,13 @@ input, #login {
 #form .otp {
     color: #4a90e2;
     text-align: center;
-    cursor: pointer;
-    align-items: center;
-    border: none;
-    font-size: 20px;
-
 }     
 
 #form > hr {
     box-shadow: none;
     width: 90%;
     margin: 15px 0px;   
-    
+
 }
 
 .socialbtn{
