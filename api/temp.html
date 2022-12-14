@@ -16,7 +16,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+     <div id="tasks">
+
+     </div>
 </body>
 <script>
 
@@ -644,47 +646,72 @@ data.forEach((el)=>{
     obj['images']=el.link;
     obj['rating']=Number(((Math.random()*8)+1).toFixed(1));
     obj['review']=Number(((Math.random()*999)+1).toFixed(0));
-    postData(obj);
+    // postData(obj);
+    // console.log(obj);
 })
 
 
 
 // let api= ;
 
-async function postData(obj){
-    let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukri12" ,{
-        method:'POST',
-        headers:{
-            'Content-Type':'application/json'
-        },
-        body:JSON.stringify(obj)
-    })
-    // console.log(res);
+// async function postData(obj){
+//     let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari" ,{
+//         method:'POST',
+//         headers:{
+//             'Content-Type':'application/json'
+//         },
+//         body:JSON.stringify(obj)
+//     })
+//     console.log(res);
+//     if(res.ok){
+//         let data= await res.json();
+//         items(data);
+//         // console.log(data);
+//     }else{
+//         console.log('Error');
+//     }
+// }
+getdata();
+async function getdata(){
+
+  try {
+    let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari");
+    console.log(res);
     if(res.ok){
         let data= await res.json();
-        console.log(data);
+        items(data);
+        // console.log(data);
     }else{
         console.log('Error');
     }
+  } catch (error) {
+    
+  }
+  
+       
+   
 }
 
+let show_data=document.querySelector("#tasks")
 
-
-function items(images,title,rating,review){
+function items(data){
+  show_data.innerHTML="";
+  let display= data.map((item)=>{
             return `  <div class="task">
         <div class="content">
-            <img src=${images} alt="">
+            <img src=${item.images} alt="">
         </div>
         <div class="actions">
-            <h2>${title}</h2>
-            <p><i class="fa-solid fa-star"></i><span>${rating}</span> <span>${review}</span>reviews</p>
+            <h2>${item.title}</h2>
+            <p><i class="fa-solid fa-star"></i><span>${item.rating}</span> <span>${item.review}</span>reviews</p>
         </div>
     </div>`;
-    }
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
+      })
+      show_data.innerHTML= display.join("");
+    }
+ 
 
 </script>
 </html>
