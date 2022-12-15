@@ -1,0 +1,96 @@
+#navbar {
+    display: flex;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 10%),
+      0 2px 20px 0 rgb(0 0 0 / 20%);
+  }
+  #nlogo {
+    width: 20%;
+    /* border: 1px solid blue; */
+  }
+  #nlogo > img {
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+  #mid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    /* border: 1px solid blue; */
+  }
+  #mid > div,
+  #last > div {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 12px;
+    /* font-weight: 700; */
+    line-height: 24px;
+  }
+  #mid > div:hover,
+  #nlogo:hover {
+    background-color: rgb(214, 227, 241);
+  }
+  #last {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    /* border: 1px solid blue; */
+  }
+  #last > img {
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+  }
+
+  /* ////////// */
+
+  a {
+    text-decoration: none;
+  }
+  
+  #footer {
+    display: grid;
+    grid-template-columns: 20% 15% 15% 15% 33%;
+    width: 96%;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+  }
+  #footer > div {
+    height: 150px;
+  }
+  #footer > div > img {
+    margin-top: 20px;
+  }
+  /* #footer > div > p {
+      color: #8292B4;
+  } */
+  #connectUs > p {
+    color: #445578;
+  }
+  .footpcolor > p > a {
+    color: #445578;
+  }
+  #appStore {
+    margin-left: 20px;
+    padding-left: 40px;
+    background: #fff;
+    border: 1px solid #d3e1ea;
+    border-radius: 8px;
+  }
+  #appStore > p:first-child {
+    font-weight: 600;
+  }
+  #appStore > p:nth-child(2) {
+    color: #445578;
+  }
+  #socailLogo {
+    display: flex;
+    gap: 15px;
+  }
+  #appLogo {
+    display: flex;
+    gap: 10px;
+  }
