@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Styles/loginPage.css" />
+    <link rel="stylesheet" href="Styles/otploginPage.css">
 </head>
 <body>
     <div id="navbar">
@@ -27,7 +27,6 @@
             <div id="emp">For employers</div><span class="drpdwn"></span>
         </div>
     </div>
-    <!-- <hr> -->
     <div id="container">
         <div id="feature" class="slide">
             <h3>New to Naukri</h3>
@@ -43,26 +42,26 @@
                 <img src="https://static.naukimg.com/s/5/105/i/register.png" class="registerimage">
             </div>                 
         </div>
-        <div id="loginPart" class="slide">
-            <form id="form">
-                <h3>Login</h3>
-                <p>Email ID* </p>
-                <input type="email" placeholder="Enter Email ID" id="email">
-                <p>Password*</p>
-                <input type="password" placeholder="Enter Password" id="pass">                
-                <input type="submit" id="login" value="Login" >
-                <p id="result"></p>
-                         
-                <button class="otp"><a href="otploginPage.html">Use OTP to Login</a></button>
-                <hr>
-                <div class="socialbtn">
-                    <img class="google-icon" src="https://static.naukimg.com/s/5/105/i/ic-google.png">
-                    <p>Sign in with Google</p>
-                </div>
-            </form>
+        <div class="form" id="form">
+            <h1>Login</h1>
+            <input type="email" id="email" placeholder="Enter Your Email here">
+            <button class="btn" onclick="sendOTP()">Send OTP</button>
+            <input type="text" class="otpverify" id="otp_inp" placeholder="Enter the OTP ">
+            <button class="btn" id="otp_btn">Verify</button>
+            <!-- <div class="otpverify"></div>        -->
         </div>
-    </div> 
-    <script src="Scripts/loginpage.js"></script> 
-    
+    </div>
+
+    <script src="Scripts/otploginPage.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
+
+
+<!-- sakthi13057 password -->
+<!-- B42F5882FD336FE4FE800B9973F1E23AFC9A -->
+
+
+
+<!-- sasakthi130597 -->
+<!-- 14F9E22109A8BC20BCFD5CE37A8915383728 -->

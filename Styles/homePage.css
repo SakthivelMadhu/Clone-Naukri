@@ -272,7 +272,7 @@ height: 28px;
   
 }
 .button{
-    background-color:none;
+    background-color:red;
     border: 1px solid red;
     height: 30px;
     width: 30px;
@@ -444,4 +444,22 @@ height: 28px;
 #appLogo {
     display: flex;
     gap: 10px;
+}
+a{
+    list-style: none;
+    display: inline-block;
+    /* padding: 8px 12px; */
+    position: relative;
+}
+a::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+a:hover::after{
+    width:100%;
 }
