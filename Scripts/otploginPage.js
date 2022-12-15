@@ -16,7 +16,7 @@ function sendOTP(){
         Body : emailBody
     }).then(message => {
             if(message === "OK"){
-                alert("OTP sent to your email" + email.value);
+                alert("OTP sent to your email  " + email.value);
                 // otpverify.style.display = "block";
                 const otp_inp = document.querySelector("#otp_inp");
                 const otp_btn = document.querySelector("#otp_btn")
