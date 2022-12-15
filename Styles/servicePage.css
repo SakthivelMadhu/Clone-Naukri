@@ -96,7 +96,9 @@ body{
     margin-top: -150px;
 
 }
-
+#last > .employer{
+    font-size: 20px;
+}
 .sub {
     box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
     0 1px 2px 0 rgb(0 0 0 / 10%), 
