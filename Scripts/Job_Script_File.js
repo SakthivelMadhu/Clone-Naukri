@@ -2,7 +2,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Marketing Engineer",
    "Companyname": "Reinger, Conroy and Marks",
-   "experenceInYear": 39,
+   "experenceInYear": "1-3Year",
    "address": "Ponce",
    "JobDescription": "Global",
    "salary": "PA 100000",
@@ -11,7 +11,7 @@ let dataArray = [
   {
    "jobProfilename": "Global Accounts Specialist",
    "Companyname": "Beier, Morar and Kassulke",
-   "experenceInYear": 17,
+   "experenceInYear": "1-3Year",
    "address": "Yuma",
    "JobDescription": "Central",
    "salary": "PA 500000",
@@ -20,7 +20,7 @@ let dataArray = [
   {
    "jobProfilename": "Senior Brand Producer",
    "Companyname": "Hickle - Larson",
-   "experenceInYear": 38,
+   "experenceInYear": "1-3Year",
    "address": "Hollywood",
    "JobDescription": "Chief",
    "salary": "45000",
@@ -29,7 +29,7 @@ let dataArray = [
   {
    "jobProfilename": "Product Tactics Analyst",
    "Companyname": "Jenkins - Schinner",
-   "experenceInYear": 49,
+   "experenceInYear": "1-3Year",
    "address": "Sioux City",
    "JobDescription": "Central",
    "salary": "70000",
@@ -38,7 +38,7 @@ let dataArray = [
   {
    "jobProfilename": "Lead Quality Supervisor",
    "Companyname": "Waelchi Inc",
-   "experenceInYear": 71,
+   "experenceInYear": "1-3Year",
    "address": "Modesto",
    "JobDescription": "Dynamic",
    "salary": "90000",
@@ -47,7 +47,7 @@ let dataArray = [
   {
    "jobProfilename": "Dynamic Program Officer",
    "Companyname": "Trantow, Borer and Grady",
-   "experenceInYear": 38,
+   "experenceInYear": "1-3Year",
    "address": "Johns Creek",
    "JobDescription": "Direct",
    "salary": "PA 500000",
@@ -56,7 +56,7 @@ let dataArray = [
   {
    "jobProfilename": "District Division Orchestrator",
    "Companyname": "Ward - Mitchell",
-   "experenceInYear": 72,
+   "experenceInYear": "1-3Year",
    "address": "Newport Beach",
    "JobDescription": "Central",
    "salary": "PA 90000",
@@ -65,7 +65,7 @@ let dataArray = [
   {
    "jobProfilename": "Customer Implementation Consultant",
    "Companyname": "White, Ruecker and Oberbrunner",
-   "experenceInYear": 46,
+   "experenceInYear": "1-3Year",
    "address": "Santa Monica",
    "JobDescription": "Principal",
    "salary": "PA 100000",
@@ -74,7 +74,7 @@ let dataArray = [
   {
    "jobProfilename": "Central Program Designer",
    "Companyname": "Huels, Gottlieb and Bartoletti",
-   "experenceInYear": 10,
+   "experenceInYear": "1-3Year",
    "address": "Bloomington",
    "JobDescription": "Global",
    "salary": "PA 300000",
@@ -83,7 +83,7 @@ let dataArray = [
   {
    "jobProfilename": "International Brand Liaison",
    "Companyname": "Quigley, Kirlin and Morar",
-   "experenceInYear": 18,
+   "experenceInYear": "1-3Year",
    "address": "Pompano Beach",
    "JobDescription": "Forward",
    "salary": "PA 400000",
@@ -92,7 +92,7 @@ let dataArray = [
   {
    "jobProfilename": "Human Brand Associate",
    "Companyname": "MacGyver - Reichert",
-   "experenceInYear": 59,
+   "experenceInYear": "1-3Year",
    "address": "Lynwood",
    "JobDescription": "Direct",
    "salary": "PA 400000",
@@ -101,7 +101,7 @@ let dataArray = [
   {
    "jobProfilename": "Lead Web Manager",
    "Companyname": "Heller - Lang",
-   "experenceInYear": 28,
+   "experenceInYear": "1-3Year",
    "address": "Hammond",
    "JobDescription": "Human",
    "salary": "PA 100000",
@@ -110,7 +110,7 @@ let dataArray = [
   {
    "jobProfilename": "Senior Directives Agent",
    "Companyname": "Altenwerth - Bartoletti",
-   "experenceInYear": 64,
+   "experenceInYear": "1-3Year",
    "address": "Portsmouth",
    "JobDescription": "Investor",
    "salary": "PA 600000",
@@ -119,7 +119,7 @@ let dataArray = [
   {
    "jobProfilename": "National Quality Director",
    "Companyname": "Keeling - Goldner",
-   "experenceInYear": 48,
+   "experenceInYear": "1-3Year",
    "address": "Edina",
    "JobDescription": "Lead",
    "salary": "PA 90000",
@@ -128,7 +128,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Identity Director",
    "Companyname": "Crona Group",
-   "experenceInYear": 55,
+   "experenceInYear": "1-3Year",
    "address": "North Charleston",
    "JobDescription": "Lead",
    "salary": "PA 400000",
@@ -137,7 +137,7 @@ let dataArray = [
   {
    "jobProfilename": "Forward Assurance Officer",
    "Companyname": "Funk LLC",
-   "experenceInYear": 1,
+   "experenceInYear":"1-3Year",
    "address": "Rochester Hills",
    "JobDescription": "Internal",
    "salary": "PA 80000",
@@ -146,7 +146,7 @@ let dataArray = [
   {
    "jobProfilename": "Forward Configuration Assistant",
    "Companyname": "Reichel, Wisozk and Dickinson",
-   "experenceInYear": 98,
+   "experenceInYear": "1-3Year",
    "address": "Milwaukee",
    "JobDescription": "Internal",
    "salary": "PA 700000",
@@ -155,7 +155,7 @@ let dataArray = [
   {
    "jobProfilename": "Corporate Web Technician",
    "Companyname": "Bernhard, Toy and Purdy",
-   "experenceInYear": 1,
+   "experenceInYear":"1-3Year",
    "address": "Birmingham",
    "JobDescription": "District",
    "salary": "PA 90000",
@@ -164,7 +164,7 @@ let dataArray = [
   {
    "jobProfilename": "Chief Intranet Designer",
    "Companyname": "Ward and Sons",
-   "experenceInYear": 12,
+   "experenceInYear": "1-3Year",
    "address": "West Hartford",
    "JobDescription": "District",
    "salary": "PA 900000",
@@ -173,7 +173,7 @@ let dataArray = [
   {
    "jobProfilename": "Dynamic Program Administrator",
    "Companyname": "Cassin LLC",
-   "experenceInYear": 37,
+   "experenceInYear": "1-3Year",
    "address": "Cedar Park",
    "JobDescription": "Dynamic",
    "salary": "PA 700000",
@@ -182,7 +182,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Interactions Director",
    "Companyname": "Johns - Kuhlman",
-   "experenceInYear": 17,
+   "experenceInYear": "1-3Year",
    "address": "Ocala",
    "JobDescription": "Future",
    "salary": "PA 10000",
@@ -191,7 +191,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Group Facilitator",
    "Companyname": "Carter, Witting and Rowe",
-   "experenceInYear": 44,
+   "experenceInYear": "1-3Year",
    "address": "Bend",
    "JobDescription": "Chief",
    "salary": "PA 80000",
@@ -200,7 +200,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Creative Agent",
    "Companyname": "Klocko, Bayer and Dietrich",
-   "experenceInYear": 51,
+   "experenceInYear": "1-3Year",
    "address": "West Allis",
    "JobDescription": "Corporate",
    "salary": "PA 109000",
@@ -209,7 +209,7 @@ let dataArray = [
   {
    "jobProfilename": "National Marketing Officer",
    "Companyname": "Streich - Erdman",
-   "experenceInYear": 51,
+   "experenceInYear": "1-3Year",
    "address": "Wylie",
    "JobDescription": "Central",
    "salary": "PA 670000",
@@ -218,7 +218,7 @@ let dataArray = [
   {
    "jobProfilename": "Global Usability Supervisor",
    "Companyname": "Roob - Bins",
-   "experenceInYear": 40,
+   "experenceInYear": "1-3Year",
    "address": "Harrisburg",
    "JobDescription": "Dynamic",
    "salary": "PA 390000",
@@ -227,7 +227,7 @@ let dataArray = [
   {
    "jobProfilename": "Internal Division Architect",
    "Companyname": "Wisozk, Casper and Wyman",
-   "experenceInYear": 31,
+   "experenceInYear": "1-3Year",
    "address": "Peoria",
    "JobDescription": "Investor",
    "salary": "PA 48000",
@@ -236,7 +236,7 @@ let dataArray = [
   {
    "jobProfilename": "Customer Applications Associate",
    "Companyname": "Wilkinson, Crona and Zulauf",
-   "experenceInYear": 48,
+   "experenceInYear": "1-3Year",
    "address": "Peoria",
    "JobDescription": "Regional",
    "salary": "PA 39000",
@@ -245,7 +245,7 @@ let dataArray = [
   {
    "jobProfilename": "Direct Research Facilitator",
    "Companyname": "Marvin, Gusikowski and Altenwerth",
-   "experenceInYear": 97,
+   "experenceInYear": "1-3Year",
    "address": "Downers Grove",
    "JobDescription": "Product",
    "salary": "PA 41000",
@@ -254,7 +254,7 @@ let dataArray = [
   {
    "jobProfilename": "Legacy Intranet Specialist",
    "Companyname": "Bins - Schoen",
-   "experenceInYear": 99,
+   "experenceInYear": "1-3Year",
    "address": "Denton",
    "JobDescription": "Lead",
    "salary": "PA 77000",
@@ -263,7 +263,7 @@ let dataArray = [
   {
    "jobProfilename": "Product Research Producer",
    "Companyname": "Haag - Balistreri",
-   "experenceInYear": 45,
+   "experenceInYear": "1-3Year",
    "address": "Mesquite",
    "JobDescription": "Lead",
    "salary": "PA 39000",
