@@ -271,336 +271,9 @@ let data= [
         "Urban Platter"
       ]
     },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/3923162.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Mymedicinebox",
-      "titles": [
-        "Mymedicinebox"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/289444.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Valuelabs",
-      "titles": [
-        "Valuelabs"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/214494.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Saraswati Vidya Mandir",
-      "titles": [
-        "Saraswati Vidya Mandir"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1528010.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Multicoreware",
-      "titles": [
-        "Multicoreware"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4594077.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Erwin India",
-      "titles": [
-        "Erwin India"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/530898.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "IGT Solutions",
-      "titles": [
-        "IGT Solutions"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1150152.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Ansr Source",
-      "titles": [
-        "Ansr Source"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/5014356.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Cambly",
-      "titles": [
-        "Cambly"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/3838114.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Billennium",
-      "titles": [
-        "Billennium"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/5104666.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Practicesuite Inc",
-      "titles": [
-        "Practicesuite Inc"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4679313.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Fibe",
-      "titles": [
-        "Fibe"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/6759475.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Pxsn",
-      "titles": [
-        "Pxsn"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/275530.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Torrent Pharmaceuticals",
-      "titles": [
-        "Torrent Pharmaceuticals"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1422.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Randstad",
-      "titles": [
-        "Randstad"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/729670.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Atomberg Technologies",
-      "titles": [
-        "Atomberg Technologies"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/356616.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "G4S",
-      "titles": [
-        "G4S"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/68300.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Pinnacle Infotech",
-      "titles": [
-        "Pinnacle Infotech"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4090610.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Emeritus",
-      "titles": [
-        "Emeritus"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/716.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Edelweiss Broking",
-      "titles": [
-        "Edelweiss Broking"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/5085318.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Integral Ad Science",
-      "titles": [
-        "Integral Ad Science"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4593869.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Enterprisedb Software",
-      "titles": [
-        "Enterprisedb Software"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/515340.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Zycus Infotech",
-      "titles": [
-        "Zycus Infotech"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/58058.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Jubilant FoodWorks (JFL)",
-      "titles": [
-        "Jubilant FoodWorks (JFL)"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1404060.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Jifflenow",
-      "titles": [
-        "Jifflenow"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/17544.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Targray",
-      "titles": [
-        "Targray"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4615553.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Oakland Systems",
-      "titles": [
-        "Oakland Systems"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/3475442.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Utkarsh Small Finance Bank",
-      "titles": [
-        "Utkarsh Small Finance Bank"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/2475682.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Steag Energy Services",
-      "titles": [
-        "Steag Energy Services"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/498434.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Msci",
-      "titles": [
-        "Msci"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/2500.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "THERMAX",
-      "titles": [
-        "THERMAX"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/75906.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Frankfinn",
-      "titles": [
-        "Frankfinn"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4628039.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Seclore",
-      "titles": [
-        "Seclore"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4663047.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Spanidea",
-      "titles": [
-        "Spanidea"
-      ]
-    }
+    
+   
+    
    ];
    
    
@@ -627,7 +300,7 @@ let data= [
    
    
    
-   // let api= ;
+  //  let api= ;
    
   //  async function postData(obj){
   //      let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukri12" ,{
@@ -676,18 +349,25 @@ let data= [
 
 function items(data){
   show_data.innerHTML="";
-  let display= data.map((item)=>{
-            return `  <div class="task">
+  display=[];
+  //  data.forEach((item,i)=>{
+    for(let i=0;i<30;i++){
+      console.log(data[i]);
+    // if(i==5){
+    //   break;
+    // }
+            let display_data=`  <div class="task">
         <div class="content">
-            <img src=${item.images} alt="">
+            <img src=${data[i].images} alt="">
         </div>
         <div class="actions">
-            <h2>${item.title}</h2>
-            <p><i class="fa-solid fa-star"></i><span>${item.rating}</span> <span>${item.review}</span>reviews</p>
+            <h2>${data[i].title}</h2>
+            <p><i class="fa-solid fa-star"></i><span>${data[i].rating}</span> <span>${data[i].review}</span>reviews</p>
         </div>
     </div>`;
-    
+    display.push(display_data);
 
-      })
+  } 
+  
       show_data.innerHTML= display.join("");
     }
