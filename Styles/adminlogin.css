@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(124, 196, 245);
+  background: linear-gradient(
+    90deg,
+    rgb(177, 237, 255) 23%,
+    rgb(164, 214, 255) 100%
+  );
+
+  font-family: "Roboto", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: #3c3c3c;
+  letter-spacing: 1px;
+}
+main {
+  background-color: white;
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  height: 100vh;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+}
+
+#logo_in_form {
+  width: 20%;
+}
+#logo_in_form > img {
+  width: 100%;
+}
+main h1,
+main h2 {
+  letter-spacing: 2px;
+}
+main > h2 + p {
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+#admin_login_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+#admin_login_form > * {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#admin_login_form input {
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 5px;
+  /* font-size: 16px; */
+}
+#pass_div {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 5px;
+}
+#pass_div > input {
+  flex: 1;
+  border: none;
+}
+#pass_div > i {
+  padding: 0 7px;
+  cursor: pointer;
+}
+#admin_login_form > input[type="submit"] {
+  background-color: #a5e2ff;
+  /* background-color: #3c3c3c; */
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+#admin_login_form + p {
+  cursor: pointer;
+  font-size: 12px;
+}
+
+main > p:last-child {
+  margin: 20px 0;
+  /* background-color: bisque; */
+  /* position: absolute; */
+  bottom: 20px;
+}
+main > p:last-child > a {
+  text-decoration: none;
+  color: #6e6879;
+}
+main > p:last-child > a:hover {
+  text-decoration: underline;
+}
+
+main + div {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+main + div * {
+  color: white;
+  text-decoration: none;
+}
+main + div a:hover {
+  text-decoration: underline;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: all 10000s ease-in-out 0s;
+}
