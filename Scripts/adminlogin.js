@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.querySelector("#admin_login_form").addEventListener("submit", adminlog)
 function adminlog(event){
     event.preventDefault()
@@ -13,7 +13,6 @@ function adminlog(event){
   alert("Incorrect Credentials")
     }
 }
-=======
 const Login_btn = document.querySelector("#admin_login_form form");
 Login_btn.addEventListener("submit",LoginFunction);
 
@@ -46,4 +45,3 @@ async function LoginFunction(event){
         alert("wrong username or password. Please try again later.");
     }
 }
->>>>>>> 7aaf6ac44943e1560648900303f1d576bed76bb2
