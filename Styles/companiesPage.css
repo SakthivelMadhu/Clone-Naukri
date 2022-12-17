@@ -94,3 +94,28 @@
     display: flex;
     gap: 10px;
   }
+  
+
+   
+/* ///////body////// */
+
+
+#tasks{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.task{
+  /* border: 1px solid yellow; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  /* width: 90%; */
+}
+.content{
+  /* width: 80%; */
+  /* height: auto; */
+}
+
