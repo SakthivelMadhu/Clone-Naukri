@@ -2,7 +2,7 @@
 use this http for backend datas
 http://localhost:5000/users
 
-Installing npm :
+Installing npm :<br>
 1.npm init -y -> it will create package.json <br>
 2.npm i json-server -> it will create whole package.json<br>
 3.create db.json and add some data<br>
