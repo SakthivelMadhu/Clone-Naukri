@@ -333,26 +333,73 @@ async function getdata() {
       let data = await res.json();
       items(data);
       // console.log(data);
+      let filt = document.querySelectorAll(".filt");
+      console.log(filt);
+      let filterData=data;
+      for (let i = 0; i < filt.length; i++) {
+        filt[i].addEventListener("change", () => {
+          // if (filt[i].checked) {
+            if (filt[i].value == "title") {
+              sortTitle(filterData);
+                //  data kaha se paoge
+            }
+            else if (filt[i].value == "rate") {
+              
+              sortRating(filterData);
+            }
+           else if (filt[i].value == "review") {
+
+              sortReview(filterData);
+            }else{
+              items(data);
+              
+            }
+
+          // }else{
+          //   items(data);
+          // }
+        })
+      }
     } else {
       console.log('Error');
     }
   } catch (error) {
 
   }
+}
+function sortTitle(data) {
+  data.sort((a, b) => {
+    return a.title.localeCompare(b.title);
 
+  })
+  console.log(data);
+  items(data);
+}
+function sortReview(data) {
+  data.sort((a, b) => {
+    return a.review - b.review;
 
-
+  })
+  console.log(data);
+  items(data);
 }
 
+function sortRating(data) {
+  data.sort((a, b) => {
+    return a.rating - b.rating;
 
+  })
+  console.log(data);
+  items(data);
+}
 let show_data = document.querySelector("#tasks")
 
 function items(data) {
   show_data.innerHTML = "";
   display = [];
   //  data.forEach((item,i)=>{
-  for (let i = 50; i < 82; i++) {
-    console.log(data[i]);
+  for (let i = 50; i < 86; i++) {
+    // console.log(data[i]);
     // if(i==5){
     //   break;
     // }
@@ -376,36 +423,43 @@ function items(data) {
 
 
 
+
+
+
+
+
+
+
 // Pagination 
-async function FetchTodoData(data_perpage=5,page_number=1) {
-  try {
-    let fetch_todo_request = await fetch(`https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari?_limit=${data_perpage}&_page=${page_number}`);
-    let total_data_count= fetch_todo_request.headers.get("x-total-count");
-    let total_page_show = Math.ceil(total_data_count/data_perpage)
-    renderPaginationButtons(total_page_show,page_number);  
-  } catch (error) {
-    alert("Something went wrong!! Please try again later.");
-  }
-}
-let paginationWrapper = document.querySelector("#pagination-wrapper");
-function renderPaginationButtons(total_pages){
-    paginationWrapper.innerHTML = `<div className="pagination-btn-list">${CreatePagButton(total_pages).join(" ")}</div>`;
-    let paginationButtons =  document.querySelectorAll('.pagination-btn');
-    for (let paginationButton of paginationButtons) {
-      paginationButton.addEventListener('click', function(e){
-        let page_number = e.target.dataset.id;
-		let page_limit = document.querySelector(".select-tag").value;
-        FetchTodoData(page_limit,page_number);
-      })
-    }
-  }
-function getAsButton(text, cls, dataId ) {
-	return `<button class="${cls}" ${dataId ? `data-id = ${dataId}` : ''} >${text}</button>`
-}
-function CreatePagButton(total_page){
-  let array = [];
-  for(let page=1; page<=total_page;page++){
-   	array.push(getAsButton(page,"pagination-btn",page))
-  }
-  return array;
-}
+// async function FetchTodoData(data_perpage = 5, page_number = 1) {
+//   try {
+//     let fetch_todo_request = await fetch(`https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari?_limit=${data_perpage}&_page=${page_number}`);
+//     let total_data_count = fetch_todo_request.headers.get("x-total-count");
+//     let total_page_show = Math.ceil(total_data_count / data_perpage)
+//     renderPaginationButtons(total_page_show, page_number);
+//   } catch (error) {
+//     alert("Something went wrong!! Please try again later.");
+//   }
+// }
+// let paginationWrapper = document.querySelector("#pagination-wrapper");
+// function renderPaginationButtons(total_pages) {
+//   paginationWrapper.innerHTML = `<div className="pagination-btn-list">${CreatePagButton(total_pages).join(" ")}</div>`;
+//   let paginationButtons = document.querySelectorAll('.pagination-btn');
+//   for (let paginationButton of paginationButtons) {
+//     paginationButton.addEventListener('click', function (e) {
+//       let page_number = e.target.dataset.id;
+//       let page_limit = document.querySelector(".select-tag").value;
+//       FetchTodoData(page_limit, page_number);
+//     })
+//   }
+// }
+// function getAsButton(text, cls, dataId) {
+//   return `<button class="${cls}" ${dataId ? `data-id = ${dataId}` : ''} >${text}</button>`
+// }
+// function CreatePagButton(total_page) {
+//   let array = [];
+//   for (let page = 1; page <= total_page; page++) {
+//     array.push(getAsButton(page, "pagination-btn", page))
+//   }
+//   return array;
+// }
