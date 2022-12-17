@@ -68,3 +68,14 @@ function prev() {
 
 
 
+let bag = [];
+function search(){
+
+  let x = document.querySelector("#input1").value;
+  let newData = bag.filter((element) =>{
+      return element.title.toLowerCase().includes(x.toLowerCase());
+  });
+  items(newData)
+}
+
+
