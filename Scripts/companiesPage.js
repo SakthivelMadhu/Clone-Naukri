@@ -351,7 +351,7 @@ function items(data) {
   show_data.innerHTML = "";
   display = [];
   //  data.forEach((item,i)=>{
-  for (let i = 0; i < 48; i++) {
+  for (let i = 50; i < 82; i++) {
     console.log(data[i]);
     // if(i==5){
     //   break;
