@@ -1,0 +1,18 @@
+### GET - all users
+GET http://localhost:5000/users
+
+### GET - user with id 1
+GET http://localhost:5000/users/1
+
+### POST Register a new user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "fullName": "Sakthivel Madhu",
+  "email": "sakthi130597@gmail.com",
+  "password": "12345",
+  "phone": "1234567890",
+  "access": "active"
+}

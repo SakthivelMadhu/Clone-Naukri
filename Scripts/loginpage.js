@@ -16,10 +16,13 @@ function loginSub(event){
         document.querySelector("#result").textContent = "Logged in Succesfully";
         
         document.querySelector("input[type='submit']").addEventListener("click", function (){
-            window.location.href = "homePage.html"
+            window.location.href = "LoginPage-2.html"
         })
     }
     else{
         document.querySelector("#result").textContent = "Invalid Email ID and Password";       
     }
 }
+
+
+

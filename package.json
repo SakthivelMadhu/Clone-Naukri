@@ -1,0 +1,24 @@
+{
+  "name": "-lazy-base-8555",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "json-server --watch ./database/db.json --port=5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakthivelMadhu/-lazy-base-8555.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakthivelMadhu/-lazy-base-8555/issues"
+  },
+  "homepage": "https://github.com/SakthivelMadhu/-lazy-base-8555#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

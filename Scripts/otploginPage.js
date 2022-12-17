@@ -12,7 +12,7 @@ function sendOTP(){
         Password : "B42F5882FD336FE4FE800B9973F1E23AFC9A",
         From : email.value,
         To : "sakthi130597@gmail.com",
-        Subject : "This is the subject",
+        Subject : "Login to veify using SMTP creditenails",
         Body : emailBody
     }).then(message => {
             if(message === "OK"){

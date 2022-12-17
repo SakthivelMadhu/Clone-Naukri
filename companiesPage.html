@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles/companiesPage.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,15 +24,147 @@
             <div>RECRUITERS</div>
             <div>COMPANIES</div>
             <div>TOOLS</div>
-            <div><a href="">SERVICES</a></div>
+            <div><a href="servicePage.html">SERVICES</a></div>
             <div>MORE</div>
-            <div><a href="">LOGIN</a></div>
+            <div><a href="loginPage.html">LOGIN</a></div>
         </div>
         <div id="last">
             <img src="" />
             <div class="employer">FOR EMPLOYERS</div>
         </div>
     </div>
+    <div class="heading">
+        <h1>Top companies hiring now </h1>
+    </div>
+    <!-- /////////////////// -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>MNCs</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Hospitality</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>MNCs</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Unicorns</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Unicorns</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>FMCG</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Startups</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>B2C</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Edtech</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Healthcare</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Internet</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>IOT</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>PRODUCT</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>Manufacturing</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>SELLS</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>WIFI</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>STUDY</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="in">
+                    <h4>TEACHING</h4>
+                    <p>1.4k+ Companies</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next size"></div>
+        <div class="swiper-button-prev size"></div>
+
+    </div>
+
+
+    <!-- //////// -->
+    <!-- <div class="slideshow">
+       
+       
+       
+       
+       
+        
+       
+       
+    </div> -->
     <div id="tasks"></div>
 
     <!-- footer start -->
@@ -85,5 +217,25 @@
     </div>
 </body>
 <script src="Scripts/companiesPage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 
 </html>
