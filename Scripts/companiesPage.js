@@ -1,373 +1,373 @@
 
-let data= [
- 
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/techminis.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "techminis",
-      "titles": [
-        "techminis"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jobhai.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "jobhai",
-      "titles": [
-        "jobhai"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/hirist.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "hirist",
-      "titles": [
-        "hirist"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/iimjobs.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "iimjobs",
-      "titles": [
-        "iimjobs"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/shiksha.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "shiksha",
-      "titles": [
-        "shiksha"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "firstNaukri",
-      "titles": [
-        "firstNaukri"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/ng.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "ng",
-      "titles": [
-        "ng"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "jeevansathi",
-      "titles": [
-        "jeevansathi"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png",
-      "count": 1,
-      "height": 40,
-      "width": 150,
-      "title": "nnacres",
-      "titles": [
-        "nnacres"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/4/100/i/naukri_Logo.png",
-      "count": 2,
-      "height": 31,
-      "width": 186,
-      "title": "Naukri Logo",
-      "titles": [
-        "Naukri Logo"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/registerLock.png",
-      "count": 1,
-      "height": 64,
-      "width": 58,
-      "title": "register-lock",
-      "titles": [
-        "register-lock"
-      ]
-    },
-    {
-      "link": "https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg",
-      "count": 1,
-      "height": 25,
-      "width": 91,
-      "title": "naukri social logos",
-      "titles": [
-        "naukri social logos"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/158588.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Premier Info Assists",
-      "titles": [
-        "Premier Info Assists"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/102394.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Realpage",
-      "titles": [
-        "Realpage"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/303102.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Mayflower Language Services",
-      "titles": [
-        "Mayflower Language Services"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4659327.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Hubbell",
-      "titles": [
-        "Hubbell"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1050278.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Dun & Bradstreet",
-      "titles": [
-        "Dun & Bradstreet"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/1486626.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Kellogg Brown & Root (KBR)",
-      "titles": [
-        "Kellogg Brown & Root (KBR)"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4641399.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Zafin Software Centre Of Excellence",
-      "titles": [
-        "Zafin Software Centre Of Excellence"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/214440.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Reliance Retail",
-      "titles": [
-        "Reliance Retail"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4575855.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Aequor Technologies",
-      "titles": [
-        "Aequor Technologies"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/4584623.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Bobst India",
-      "titles": [
-        "Bobst India"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/703904.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Rapido",
-      "titles": [
-        "Rapido"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/2275530.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Gyandhan",
-      "titles": [
-        "Gyandhan"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/2168966.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Magnitude Software",
-      "titles": [
-        "Magnitude Software"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/6205817.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Bitcipher Labs",
-      "titles": [
-        "Bitcipher Labs"
-      ]
-    },
-    {
-      "link": "https://img.naukimg.com/logo_images/groups/v1/5211308.gif",
-      "count": 1,
-      "height": 42,
-      "width": 42,
-      "title": "Urban Platter",
-      "titles": [
-        "Urban Platter"
-      ]
-    },
-    
-   
-    
-   ];
-   
-   
-   // {
-   //    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/techminis.png",
-   //    "count": 1,
-   //    "height": 40,
-   //    "width": 150,
-   //    "title": "techminis",
-   //    "titles": [
-   //      "techminis"
-   //    ]
-   //  }
-   
-   data.forEach((el)=>{
-       let obj={};
-       obj['createdAt']= new Date().toLocaleTimeString();
-       obj['title']=el.title;
-       obj['images']=el.link;
-       obj['rating']=Number(((Math.random()*8)+1).toFixed(1));
-       obj['review']=Number(((Math.random()*999)+1).toFixed(0));
-      //  postData(obj);
-   })
-   
-   
-   
-  //  let api= ;
-   
-  //  async function postData(obj){
-  //      let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukri12" ,{
-  //          method:'POST',
-  //          headers:{
-  //              'Content-Type':'application/json'
-  //          },
-  //          body:JSON.stringify(obj)
-  //      })
-  //      // console.log(res);
-  //      if(res.ok){
-  //          let data= await res.json();
-  //          console.log(data);
-  //      }else{
-  //          console.log('Error');
-  //      }
-  //  }
-   
-   
-   
-  
-   
-  getdata();
-  async function getdata(){
-  
-    try {
-      let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari");
-      console.log(res);
-      if(res.ok){
-          let data= await res.json();
-          items(data);
-          // console.log(data);
-      }else{
-          console.log('Error');
-      }
-    } catch (error) {
-      
+let data = [
+
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/techminis.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "techminis",
+    "titles": [
+      "techminis"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jobhai.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "jobhai",
+    "titles": [
+      "jobhai"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/hirist.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "hirist",
+    "titles": [
+      "hirist"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/iimjobs.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "iimjobs",
+    "titles": [
+      "iimjobs"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/shiksha.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "shiksha",
+    "titles": [
+      "shiksha"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "firstNaukri",
+    "titles": [
+      "firstNaukri"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/ng.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "ng",
+    "titles": [
+      "ng"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "jeevansathi",
+    "titles": [
+      "jeevansathi"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png",
+    "count": 1,
+    "height": 40,
+    "width": 150,
+    "title": "nnacres",
+    "titles": [
+      "nnacres"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/4/100/i/naukri_Logo.png",
+    "count": 2,
+    "height": 31,
+    "width": 186,
+    "title": "Naukri Logo",
+    "titles": [
+      "Naukri Logo"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/registerLock.png",
+    "count": 1,
+    "height": 64,
+    "width": 58,
+    "title": "register-lock",
+    "titles": [
+      "register-lock"
+    ]
+  },
+  {
+    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg",
+    "count": 1,
+    "height": 25,
+    "width": 91,
+    "title": "naukri social logos",
+    "titles": [
+      "naukri social logos"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/158588.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Premier Info Assists",
+    "titles": [
+      "Premier Info Assists"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/102394.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Realpage",
+    "titles": [
+      "Realpage"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/303102.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Mayflower Language Services",
+    "titles": [
+      "Mayflower Language Services"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/4659327.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Hubbell",
+    "titles": [
+      "Hubbell"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/1050278.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Dun & Bradstreet",
+    "titles": [
+      "Dun & Bradstreet"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/1486626.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Kellogg Brown & Root (KBR)",
+    "titles": [
+      "Kellogg Brown & Root (KBR)"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/4641399.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Zafin Software Centre Of Excellence",
+    "titles": [
+      "Zafin Software Centre Of Excellence"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/214440.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Reliance Retail",
+    "titles": [
+      "Reliance Retail"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/4575855.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Aequor Technologies",
+    "titles": [
+      "Aequor Technologies"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/4584623.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Bobst India",
+    "titles": [
+      "Bobst India"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/703904.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Rapido",
+    "titles": [
+      "Rapido"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/2275530.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Gyandhan",
+    "titles": [
+      "Gyandhan"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/2168966.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Magnitude Software",
+    "titles": [
+      "Magnitude Software"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/6205817.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Bitcipher Labs",
+    "titles": [
+      "Bitcipher Labs"
+    ]
+  },
+  {
+    "link": "https://img.naukimg.com/logo_images/groups/v1/5211308.gif",
+    "count": 1,
+    "height": 42,
+    "width": 42,
+    "title": "Urban Platter",
+    "titles": [
+      "Urban Platter"
+    ]
+  },
+
+
+
+];
+
+
+// {
+//    "link": "https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/techminis.png",
+//    "count": 1,
+//    "height": 40,
+//    "width": 150,
+//    "title": "techminis",
+//    "titles": [
+//      "techminis"
+//    ]
+//  }
+
+data.forEach((el) => {
+  let obj = {};
+  obj['createdAt'] = new Date().toLocaleTimeString();
+  obj['title'] = el.title;
+  obj['images'] = el.link;
+  obj['rating'] = Number(((Math.random() * 8) + 1).toFixed(1));
+  obj['review'] = Number(((Math.random() * 999) + 1).toFixed(0));
+  //  postData(obj);
+})
+
+
+
+//  let api= ;
+
+//  async function postData(obj){
+//      let res= await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukri12" ,{
+//          method:'POST',
+//          headers:{
+//              'Content-Type':'application/json'
+//          },
+//          body:JSON.stringify(obj)
+//      })
+//      // console.log(res);
+//      if(res.ok){
+//          let data= await res.json();
+//          console.log(data);
+//      }else{
+//          console.log('Error');
+//      }
+//  }
+
+
+
+
+
+getdata();
+async function getdata() {
+
+  try {
+    let res = await fetch("https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari");
+    console.log(res);
+    if (res.ok) {
+      let data = await res.json();
+      items(data);
+      // console.log(data);
+    } else {
+      console.log('Error');
     }
-    
-         
-     
+  } catch (error) {
+
   }
-  
 
-  let show_data=document.querySelector("#tasks")
 
-function items(data){
-  show_data.innerHTML="";
-  display=[];
+
+}
+
+
+let show_data = document.querySelector("#tasks")
+
+function items(data) {
+  show_data.innerHTML = "";
+  display = [];
   //  data.forEach((item,i)=>{
-    for(let i=0;i<30;i++){
-      console.log(data[i]);
+  for (let i = 50; i < 82; i++) {
+    console.log(data[i]);
     // if(i==5){
     //   break;
     // }
-            let display_data=`  <div class="task">
+    let display_data = `  <div class="task">
         <div class="content">
             <img src=${data[i].images} alt="">
         </div>
         <div class="actions">
             <h2>${data[i].title}</h2>
-            <p><i class="fa-solid fa-star"></i><span>${data[i].rating}</span> <span>${data[i].review}</span>reviews</p>
+            <p><i class="fa-solid fa-star"></i><span>${data[i].rating}</span><span> ||</span> <span>${data[i].review}</span>reviews</p>
         </div>
     </div>`;
     display.push(display_data);
 
-  } 
-  
-      show_data.innerHTML= display.join("");
-    }
+  }
+
+  show_data.innerHTML = display.join("");
+}
