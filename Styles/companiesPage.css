@@ -134,7 +134,7 @@
   font-size: 15px;
 }
 /* .slideshow{
-  border: 1px solid blue;
+  
   display: flex;
   justify-content: space-between;
   width: 60%;
@@ -151,7 +151,8 @@
   width: 60%;
   height: 100%;
   /* margin: 20px; */
-  
+  border: 1px solid white;
+  margin-bottom: 40px;
 }
 .size{
   font-size: 20px;
