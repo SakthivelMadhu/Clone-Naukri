@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+document.querySelector("#admin_login_form").addEventListener("submit", adminlog)
+function adminlog(event){
+    event.preventDefault()
+    var userName = document.querySelector("#admin_username").value;
+    var userPass = document.querySelector("#admin_password").value;
+  
+    if(userName == "ourServices" && userPass == "12345"){
+      
+          window.location.href = "dashboard.html"
+     
+    } else {
+  alert("Incorrect Credentials")
+    }
+}
+=======
 const Login_btn = document.querySelector("#admin_login_form form");
 Login_btn.addEventListener("submit",LoginFunction);
 
@@ -30,3 +46,4 @@ async function LoginFunction(event){
         alert("wrong username or password. Please try again later.");
     }
 }
+>>>>>>> 7aaf6ac44943e1560648900303f1d576bed76bb2
