@@ -99,11 +99,15 @@
    
 /* ///////body////// */
 
-
+.heading{
+  text-align: center;
+}
 #tasks{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  margin-top: 20px;
+ 
 }
 .task{
   /* border: 1px solid yellow; */
@@ -116,6 +120,7 @@
   /* width: 90%; */
   padding: 25px;
   border-radius: 20px;
+
 }
 .content{
   overflow: hidden;
@@ -127,5 +132,55 @@
 }
 .actions>h2{
   font-size: 15px;
+}
+/* .slideshow{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+} */
+.in{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 75%;
+  border-radius: 15px;
+}
+.swiper {
+  width: 60%;
+  height: 100%;
+  /* margin: 20px; */
+  border: 1px solid white;
+  margin-bottom: 40px;
+}
+.size{
+  font-size: 20px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
