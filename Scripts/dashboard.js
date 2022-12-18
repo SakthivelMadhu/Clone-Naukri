@@ -44,7 +44,7 @@ function appendData(data) {
       div_3.innerHTML = `${el.name}`;
 
       let div_4 = document.createElement("div");
-      div_4.innerHTML = `${el.mobile}`;
+      div_4.innerHTML = `${el.phone}`;
 
       let btn = document.createElement("button");
       btn.innerHTML = "Unblocked";
