@@ -218,20 +218,6 @@
       "id": 31
     },
     {
-<<<<<<< HEAD
-      "sName": "Dan Smith",
-      "sEmail": "MUNMUNSONI03@GMAIL.COM",
-      "sPass": "12345",
-      "sMobile": "0000000000",
-      "id": 32
-    },
-    {
-      "sName": "Meghana soni",
-      "sEmail": "123@gmail.com",
-      "sPass": "23131",
-      "sMobile": "9999900000",
-      "id": 33
-=======
       "sName": "sudeep",
       "sEmail": "sakthi130597@gmail.com",
       "sPass": "123456",
@@ -258,7 +244,41 @@
       "sPass": "0000",
       "sMobile": "7538837154",
       "id": 35
->>>>>>> 1e584697d51b75efb41c1e7768acceb1f0849b6d
+    },
+    {
+      "name": "SAKTHIVEL MADHU",
+      "email": "sakthi130597@gmail.com",
+      "pass": "12345",
+      "mobile": "7538837154",
+      "id": 36
+    },
+    {
+      "name": "SAKTHIVEL MADHU",
+      "email": "asa@gmail.com",
+      "pass": "741852",
+      "mobile": "7538837154",
+      "id": 37
+    },
+    {
+      "name": "SAKTHIVEL MADHU",
+      "email": "sakthi130597@gmail.com",
+      "pass": "741852",
+      "mobile": "7538837154",
+      "id": 38
+    },
+    {
+      "name": "okay",
+      "email": "okay@gmail.com",
+      "pass": "88888",
+      "mobile": "7538837154",
+      "id": 39
+    },
+    {
+      "name": "sandhiya",
+      "email": "asa@gmail.com",
+      "pass": "741852",
+      "mobile": "798465231",
+      "id": 40
     }
   ],
   "login": [

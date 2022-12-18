@@ -41,10 +41,10 @@ function appendData(data) {
        div_2.innerHTML = `${el.email}`;
 
       let div_3 = document.createElement("div");
-      div_3.innerHTML = `${el.fullName}`;
+      div_3.innerHTML = `${el.name}`;
 
       let div_4 = document.createElement("div");
-      div_4.innerHTML = `${el.phone}`;
+      div_4.innerHTML = `${el.mobile}`;
 
       let btn = document.createElement("button");
       btn.innerHTML = "Unblocked";
