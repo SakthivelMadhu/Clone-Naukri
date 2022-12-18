@@ -7,13 +7,21 @@ function sendOTP(){
     let emailBody = `<h2> Your OTP is ${otp_value} </h2> `;
 
     Email.send({
+
+
         Host : "smtp.elasticemail.com",
-        Username : "sakthi130597@gmail.com",
-        Password : "B42F5882FD336FE4FE800B9973F1E23AFC9A",
-        From : email.value,
-        To : "sakthi130597@gmail.com",
+        Username : "sakthi13057@gmail.com",
+        Password : "7BDBB13401525C56FDFEDC5E6C4E29580681",
+        To : 'naukri@website.com',
+        From : "sakthi13057@gmail.com",
         Subject : "Login to veify using SMTP creditenails",
         Body : emailBody
+
+        // SecureToken : "8f577700-d01f-4584-8a96-62ff256999cb",
+        // From : email.value,
+        // To : "sakthi13057@gmail.com",
+        // Subject : "Login to veify using SMTP creditenails",
+        // Body : emailBody
     }).then(message => {
             if(message === "OK"){
                 alert("OTP sent to your email  " + email.value);
@@ -23,7 +31,7 @@ function sendOTP(){
                 otp_btn.addEventListener("click" , ()=>{
                     //checking wether sent email is valid
                     if(otp_inp.value == otp_value){
-                        alert("email address verified");
+                        alert("Successfully loged in");
                     }else{
                         alert("Invalid OTP");
                     }
@@ -35,9 +43,12 @@ function sendOTP(){
 
 
 // sakthi13057 password 
-//  B42F5882FD336FE4FE800B9973F1E23AFC9A 
+// 7BDBB13401525C56FDFEDC5E6C4E29580681
+// 8f577700-d01f-4584-8a96-62ff256999cb
 
 // sasakthi130597 
 // 14F9E22109A8BC20BCFD5CE37A8915383728 
 
 
+// sadi1402sa1403
+// 2F5ADD784C29D4CBE23DAA016D56346E371C
