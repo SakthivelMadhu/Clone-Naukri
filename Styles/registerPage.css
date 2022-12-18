@@ -1,50 +1,53 @@
 body {
     background: #fafbfe;
     font-family: Inter;
-    font-weight: 400;            
+    font-weight: 400;
     line-height: 18px;
 }
-/* for header */         
-#header {
-     display: flex;
-     justify-content: space-around;
- }
 
- /* #header >div :nth-child(1){
+/* for header */
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #header >div :nth-child(1){
     margin-right: auto;
     justify-content: left;
     padding-left: 50px;
 } */
 
-#header >div :last-child{
+#header>div :last-child {
     margin-left: auto;
 }
 
 a {
-color: #457eff;
-font-size: 20px;
-text-decoration: none;
+    color: #457eff;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 hr {
     color: #445578;
 }
-b{
+
+b {
     color: #457eff;
 }
+
 /*header over */
 
 /*For main content */
 .main {
     width: 83%;
-    margin: auto;            
+    margin: auto;
     display: flex;
     justify-content: space-between;
     background-color: #fff;
 
 }
 
-.main > .left-container  {
+.main>.left-container {
     width: 35%;
     height: 1000px;
     float: left;
@@ -52,7 +55,7 @@ b{
     overflow: hidden;
 }
 
-.main > .right-container {
+.main>.right-container {
     width: 70%;
     margin-top: 30px;
     padding-left: 30px;
@@ -60,6 +63,7 @@ b{
     justify-content: space-between;
 
 }
+
 /* leftcontainer */
 .left-container #static-part {
     width: 100%;
@@ -86,6 +90,7 @@ b{
     margin: auto;
     position: absolute;
 }
+
 /* right container */
 
 #form {
@@ -100,7 +105,7 @@ b{
     padding-bottom: 10px;
     margin-right: 10px;
     border-left: 1px solid rgb(75, 73, 73);
-    height: 200px;            
+    height: 200px;
 }
 
 h1 {
@@ -108,19 +113,21 @@ h1 {
     font-size: 32px;
     line-height: 28px;
 }
-#form > p , p {
+
+#form>p,
+p {
     font-size: 14px;
-    color: #445578; 
+    color: #445578;
 }
 
 .head-top {
     font-size: 15px;
-    color: #445578; 
+    color: #445578;
     padding-top: 15px;
-    font-weight: bold;           
+    font-weight: bold;
 }
 
-#form > input {
+#form>input {
     font-size: 17px;
     line-height: 22px;
     padding: 9px 16px 11px;
@@ -134,80 +141,81 @@ h1 {
 .work-status {
     width: 95%;
     height: 90px;
-    cursor: pointer; 
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
 
 
 }
-.work-status > .sub:hover{
+
+.work-status>.sub:hover {
     background: yellow;
     transition: 1s;
 }
 
-.work-status > .sub {
+.work-status>.sub {
     border: 2px solid #afb8ce;
     width: 46%;
     border-radius: 20px 8px;
-    cursor: pointer; 
+    cursor: pointer;
     line-height: 15px;
     padding-left: 3px;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
     text-decoration: none;
     background: transparent;
     position: relative;
 }
 
-.sub >div:first-child {
+.sub>div:first-child {
     width: 20px;
     height: 20px;
     font-size: 22px;
-    padding-top: 10px;            
+    padding-top: 10px;
     margin-top: 6px;
     color: gray;
 }
 
-.sub >div:last-child {
+.sub>div:last-child {
     width: 70%;
     padding-top: -20px;
 }
 
-.sub >div:last-child > h3  {
+.sub>div:last-child>h3 {
     color: #457eff;
 }
 
-.sub >div:last-child > p {
+.sub>div:last-child>p {
     color: #92a0bd;
 }
 
 .resume {
     width: 75%;
     height: 40px;
-    border: 1px solid #84858a; 
+    border: 1px solid #84858a;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;      
-    cursor: pointer;   
+    flex-direction: row;
+    cursor: pointer;
 
 
 }
 
 
-.resume >div {
+.resume>div {
     width: 35%;
     height: 30px;
     background: #ff7555;
     border-radius: 20px;
     padding-top: 10px;
     padding-left: 10px;
-    color: white; 
-    display: flex;        
+    color: white;
+    display: flex;
 
 
-}        
+}
 
-.resume > p {
+.resume>p {
     color: #92a0bd;
     font-size: 14px;
     padding-left: 5px;
@@ -217,9 +225,9 @@ h1 {
     display: flex;
 }
 
-.notifiy > i {            
-    color: 
-    #1d9d74;
+.notifiy>i {
+    color:
+        #1d9d74;
     padding: 13px 3px 3px 3px;
 }
 
@@ -227,7 +235,7 @@ h1 {
     font-size: 12px;
 }
 
-#form > .register {
+#form>.register {
     border-radius: 25px;
     width: 30%;
     height: 45px;
@@ -235,26 +243,28 @@ h1 {
     background-color: #457eff;
     color: #fafbfe;
     font-weight: bold;
-    font-size: 15px; 
+    font-size: 15px;
     cursor: pointer;
 }
-#form > .regisetr:hover{
+
+#form>.regisetr:hover {
     background: red;
     transition: 1s;
 }
-#form > .register + p {
+
+#form>.register+p {
     font-size: 11px;
     color: #457eff;
     text-align: center;
     padding-top: 20px;
-} 
+}
 
-.register + p + p {
+.register+p+p {
     font-size: 11px;
     color: #92a0bd;
     text-align: center;
     line-height: 4px;
-} 
+}
 
 .google {
     display: flex;
@@ -268,19 +278,19 @@ h1 {
     padding-right: 10px;
 }
 
-.google-box > h3 {
+.google-box>h3 {
     padding-top: 50px;
     cursor: pointer;
 }
 
-.google > img {
-    width : 22px;
-    height : 22px;
+.google>img {
+    width: 22px;
+    height: 22px;
     margin: 11px 11px 11px 16px;
     background-size: 18px 18px;
 }
 
-.google > h4 {
+.google>h4 {
     width: 150px;
     height: 22px;
     color: #457eff;
@@ -288,16 +298,19 @@ h1 {
     font-size: 17px;
     letter-spacing: .4px;
     line-height: 16px;
-    text-align: left;            
+    text-align: left;
 }
-#bottom{
+
+#bottom {
     margin: auto;
-    width:50%;
+    width: 50%;
     height: auto;
 }
-#bottom > p:nth-child(1){
+
+#bottom>p:nth-child(1) {
     color: #457eff;
 }
-#bottom > p:last-child{
+
+#bottom>p:last-child {
     padding-left: 100px;
 }

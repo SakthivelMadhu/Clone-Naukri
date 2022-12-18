@@ -319,18 +319,18 @@ data.forEach((el) => {
 //      }
 //  }
 
-document.querySelector('#job').addEventListener('mouseover',()=>{
-  document.querySelector('.hover1').style.display='grid';
+document.querySelector('#job').addEventListener('mouseover', () => {
+  document.querySelector('.hover1').style.display = 'grid';
 })
-document.querySelector('#job').addEventListener('mouseleave',()=>{
-  document.querySelector('.hover1').style.display='none';
+document.querySelector('#job').addEventListener('mouseleave', () => {
+  document.querySelector('.hover1').style.display = 'none';
 })
 
-document.querySelector('#recruit').addEventListener('mouseover',()=>{
-  document.querySelector('.hover2').style.display='grid';
+document.querySelector('#recruit').addEventListener('mouseover', () => {
+  document.querySelector('.hover2').style.display = 'grid';
 })
-document.querySelector('#recruit').addEventListener('mouseleave',()=>{
-  document.querySelector('.hover2').style.display='none';
+document.querySelector('#recruit').addEventListener('mouseleave', () => {
+  document.querySelector('.hover2').style.display = 'none';
 })
 
 
@@ -346,25 +346,25 @@ async function getdata() {
       // console.log(data);
       let filt = document.querySelectorAll(".filt");
       console.log(filt);
-      let filterData=data;
+      let filterData = data;
       for (let i = 0; i < filt.length; i++) {
         filt[i].addEventListener("change", () => {
           // if (filt[i].checked) {
-            if (filt[i].value == "title") {
-              sortTitle(filterData);
-                //  data kaha se paoge
-            }
-            else if (filt[i].value == "rate") {
-              
-              sortRating(filterData);
-            }
-           else if (filt[i].value == "review") {
+          if (filt[i].value == "title") {
+            sortTitle(filterData);
+            //  data kaha se paoge
+          }
+          else if (filt[i].value == "rate") {
 
-              sortReview(filterData);
-            }else{
-              items(data);
-              
-            }
+            sortRating(filterData);
+          }
+          else if (filt[i].value == "review") {
+
+            sortReview(filterData);
+          } else {
+            items(data);
+
+          }
 
           // }else{
           //   items(data);
@@ -448,7 +448,7 @@ function items(data) {
 
 
 
-// Pagination 
+// Pagination
 // async function FetchTodoData(data_perpage = 5, page_number = 1) {
 //   try {
 //     let fetch_todo_request = await fetch(`https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari?_limit=${data_perpage}&_page=${page_number}`);
