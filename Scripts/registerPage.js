@@ -24,7 +24,7 @@ async function RegisterFunction(event) {
       name: document.querySelector("#name").value,
       email: document.querySelector("#email").value,
       pass: document.querySelector("#pass").value,
-      mobile: document.querySelector("#phone").value,
+      phone: document.querySelector("#phone").value,
       access : "active"
     };
     registerArr.push(infoObj);
