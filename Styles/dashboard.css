@@ -1,25 +1,29 @@
 body {
     padding: 0;
     margin: 0;
-   
-}  
-#dashboard{
+
+}
+
+#dashboard {
     border: 1px solid red;
     height: auto;
     display: flex;
 }
-#side_bar{
+
+#side_bar {
     border: 1px solid black;
     height: 700px;
     width: 15%;
     padding: 10px 40px;
 }
-#side_bar>img{
+
+#side_bar>img {
     height: 200px;
     width: 70%;
 
 }
-#side_bar>p{
+
+#side_bar>p {
     font-size: 18px;
     margin-top: 25px;
 }
