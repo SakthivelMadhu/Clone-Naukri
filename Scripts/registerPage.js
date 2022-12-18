@@ -21,10 +21,10 @@ async function RegisterFunction(event) {
   try {
     event.preventDefault();
     var infoObj = {
-        sName : document.querySelector("#name").value,
-        sEmail : document.querySelector("#email").value,
-        sPass : document.querySelector("#pass").value,
-        sMobile : document.querySelector("#phone").value
+      sName: document.querySelector("#name").value,
+      sEmail: document.querySelector("#email").value,
+      sPass: document.querySelector("#pass").value,
+      sMobile: document.querySelector("#phone").value
 
     };
     registerArr.push(infoObj);
@@ -46,12 +46,12 @@ async function RegisterFunction(event) {
         "Content-Type": "application/json",
       }
     });
-    
-    if(register_request.ok){
-        alert("Hurry, User has been created.  Please login!");
-        window.location.href = "loginPage.html";
-    }else{
-        alert("Bad request has been made.");
+
+    if (register_request.ok) {
+      alert("Hurry, User has been created.  Please login!");
+      window.location.href = "loginPage.html";
+    } else {
+      alert("Bad request has been made.");
     }
   } catch (error) {
     alert("Something went wrong. Please try again later.");
