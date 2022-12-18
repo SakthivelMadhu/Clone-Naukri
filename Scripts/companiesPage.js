@@ -126,9 +126,9 @@ let data = [
     "count": 1,
     "height": 42,
     "width": 42,
-    "title": "Premier Info Assists",
+    "title": "WIPRO",
     "titles": [
-      "Premier Info Assists"
+      "WIPRO"
     ]
   },
   {
@@ -415,11 +415,11 @@ function items(data) {
     //   break;
     // }
     let display_data = `  <div class="task">
-        <div class="content">
-            <img src=${data[i].images} alt="">
+        <div  class="content">
+            <img  src=${data[i].images} alt="">
         </div>
         <div class="actions">
-            <h2>${data[i].title}</h2>
+        <a href="wipro.html" > <h2>${data[i].title}</h2></a>
             <p><i class="fa-solid fa-star"></i><span>${data[i].rating}</span><span> ||</span> <span>${data[i].review}</span>reviews</p>
         </div>
     </div>`;
@@ -431,6 +431,13 @@ function items(data) {
 }
 
 
+// let select=document.querySelectorAll(".task")
+// console.log(select);
+// select.forEach((elem)=>{
+// elem.addEventListener("click",()=>{
+//   window.location.href= "wipro.html"
+// })
+// })
 
 
 
