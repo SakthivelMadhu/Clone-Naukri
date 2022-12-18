@@ -52,6 +52,9 @@ function RenderData(real_data){
   
     var companyName= document.createElement("p");
     companyName.innerText=elem.Companyname;
+    var x = document.createElement("A");
+    const t = document.createTextNode("Apply");
+    x.setAttribute("href", "/company pages/wipro.html");
     //console.log(c);
     var experience= document.createElement("p");
     experience.innerText=elem.experenceInYear;

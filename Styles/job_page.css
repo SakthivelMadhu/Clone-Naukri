@@ -61,6 +61,13 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 20px ;
   padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+#Job_section_All_Jobs button{
+  color: white;
+  background-color: greenyellow;
+  border: none;
 }
 /* pagination section */
 .pagination-wrapper {
