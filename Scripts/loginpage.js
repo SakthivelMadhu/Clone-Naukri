@@ -7,7 +7,7 @@ function loginSub(event) {
     var userPass = document.querySelector("#pass").value;
     var flag = false;
     for (var i = 0; i < registerArr.length; i++) {
-        if (registerArr[i].sEmail == userEmail && registerArr[i].sPass == userPass) {
+        if (registerArr[i].email == userEmail && registerArr[i].pass == userPass) {
             flag = true;
             break;
         }
