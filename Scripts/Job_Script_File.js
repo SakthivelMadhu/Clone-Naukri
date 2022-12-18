@@ -76,10 +76,26 @@ function RenderData(real_data){
 }
    
 
+document.querySelector('#job').addEventListener('mouseover',()=>{
+document.querySelector('.hover1').style.display='grid';
+})
+document.querySelector('#job').addEventListener('mouseleave',()=>{
+document.querySelector('.hover1').style.display='none';
+})
+
+document.querySelector('#recruit').addEventListener('mouseover',()=>{
+document.querySelector('.hover2').style.display='grid';
+})
+document.querySelector('#recruit').addEventListener('mouseleave',()=>{
+document.querySelector('.hover2').style.display='none';
+})
+
+
+
+    
 // search
 let bag = []
 fetch(url).then((res)=> res.json()).then((data) => bag = data).catch((err) => console.log(err));
-
 function search(){
    let x = document.querySelector("#input1").value;
    let newData = bag.filter((element) =>{
