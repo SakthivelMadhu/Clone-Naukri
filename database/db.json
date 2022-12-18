@@ -152,9 +152,6 @@
       "id": 21
     },
     {
-      "id": 22
-    },
-    {
       "name": "SAKTHIVEL MADHU",
       "email": "madhumadgu76@gmail.com",
       "pass": "00012",
@@ -183,69 +180,6 @@
       "id": 26
     },
     {
-      "sName": "sdfgn",
-      "sEmail": "asd@gmail.com",
-      "sPass": "0123",
-      "sMobile": "7538837154",
-      "id": 27
-    },
-    {
-      "sName": "sakthi",
-      "sEmail": "sakthi130597@gmail.com",
-      "sPass": "6666",
-      "sMobile": "7538837154",
-      "id": 28
-    },
-    {
-      "sName": "dhanu",
-      "sEmail": "dhanu@gmail.com",
-      "sPass": "753951",
-      "sMobile": "789498465",
-      "id": 29
-    },
-    {
-      "sName": "SAKTHIVEL MADHU",
-      "sEmail": "asa@gmail.com",
-      "sPass": "8888",
-      "sMobile": "7538837154",
-      "id": 30
-    },
-    {
-      "sName": "sasa",
-      "sEmail": "saasa@gmail.com",
-      "sPass": "88888",
-      "sMobile": "7538837154",
-      "id": 31
-    },
-    {
-      "sName": "sudeep",
-      "sEmail": "sakthi130597@gmail.com",
-      "sPass": "123456",
-      "sMobile": "7538837154",
-      "id": 32
-    },
-    {
-      "sName": "SAKTHIVEL MADHU",
-      "sEmail": "sakthi130597@gmail.com",
-      "sPass": "789456",
-      "sMobile": "7538837154",
-      "id": 33
-    },
-    {
-      "sName": "SAKTHIVEL MADHU",
-      "sEmail": "sakthi130597@gmail.com",
-      "sPass": "0123",
-      "sMobile": "7538837154",
-      "id": 34
-    },
-    {
-      "sName": "SAKTHIVEL MADHU",
-      "sEmail": "asa@gmail.com",
-      "sPass": "0000",
-      "sMobile": "7538837154",
-      "id": 35
-    },
-    {
       "name": "SAKTHIVEL MADHU",
       "email": "sakthi130597@gmail.com",
       "pass": "12345",
@@ -267,18 +201,12 @@
       "id": 38
     },
     {
-      "name": "okay",
-      "email": "okay@gmail.com",
-      "pass": "88888",
-      "mobile": "7538837154",
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "pass": "741852963",
+      "phone": "79846512398",
+      "access": "active",
       "id": 39
-    },
-    {
-      "name": "sandhiya",
-      "email": "asa@gmail.com",
-      "pass": "741852",
-      "mobile": "798465231",
-      "id": 40
     }
   ],
   "login": [
