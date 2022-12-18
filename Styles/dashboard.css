@@ -1,10 +1,18 @@
 body {
     padding: 0;
     margin: 0;
+
    
 }  
 #dashboard1{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+
+}
+
+#dashboard {
+    border: 1px solid red;
+
     height: auto;
 }
 #Nav_bar{
@@ -17,6 +25,7 @@ body {
     gap: 20px;
     margin: auto;
 }
+
 #Nav_bar>img{
     height:80px;
     width: 80px;
@@ -27,7 +36,22 @@ body {
     margin-top: 20px;
     cursor: pointer;
 }
-#Nav_bar>div>p{
+
+#side_bar{
+    border: 1px solid black;
+    height: 700px;
+    width: 15%;
+    padding: 10px 40px;
+}
+
+#side_bar>img {
+    height: 200px;
+    width: 70%;
+
+}
+
+#side_bar>p {
+
     font-size: 18px;
     margin-top: 10px;
     margin-left: 20px;

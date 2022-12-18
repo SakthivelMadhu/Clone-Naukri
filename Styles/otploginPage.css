@@ -1,5 +1,4 @@
-
-#navbar{
+#navbar {
     display: flex;
     position: fixed;
     top: 0;
@@ -7,40 +6,45 @@
     height: 50px;
     overflow: hidden;
 }
-a{
+
+a {
     list-style: none;
     display: inline-block;
     /* padding: 8px 12px; */
     position: relative;
 }
-a::after{
+
+a::after {
     content: '';
-    width:0%;
+    width: 0%;
     height: 2px;
     background: #f44336;
     display: block;
     margin: auto;
     transition: 0.5s;
 }
-a:hover::after{
-    width:100%;
+
+a:hover::after {
+    width: 100%;
 }
 
-.middle-nav > div > a{
+.middle-nav>div>a {
     text-decoration: none;
     color: #8F939E;
 }
-.left-nav{
+
+.left-nav {
     display: flex;
     margin: 15px;
     width: 20%;
-    
+
 }
+
 /* .left-nav > img{
     width:100px;
     height: 50px;
 } */
-.middle-nav{
+.middle-nav {
     display: flex;
     /* justify-content: space-around; */
     width: 40%;
@@ -49,15 +53,17 @@ a:hover::after{
     gap: 20px;
     cursor: pointer;
 }
-.right-nav{
+
+.right-nav {
     display: flex;
     width: 30%;
     margin: 10px;
     font-style: normal;
-    gap:10px;
-    cursor:pointer;
+    gap: 10px;
+    cursor: pointer;
 }
-.drpdwn{
+
+.drpdwn {
     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNyIgdmlld0JveD0iMCAwIDEyIDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMSAxTDYgNkwxIDAuOTk5OTk5IiBzdHJva2U9IiM0NDU1NzgiIHN0cm9rZS13aWR0aD0iMS43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=) no-repeat;
     display: inline-block;
     background-position: center;
@@ -65,7 +71,8 @@ a:hover::after{
     height: 24px;
     margin-top: 8px;
 }
-.loginbtn{
+
+.loginbtn {
     width: 72px;
     height: 36px;
     border: 1px solid #bacffe;
@@ -78,26 +85,29 @@ a:hover::after{
     /* margin: 0px 16px; */
 
 }
-.registerbtn{
+
+.registerbtn {
     width: 92px;
-    height:36px;
+    height: 36px;
     border-radius: 20px;
     color: white;
     background-color: #FF7555;
     font-size: 15px;
     border: none;
-    font-style:normal;
+    font-style: normal;
     cursor: pointer;
     /* margin-right: 20px; */
 }
-#pipe{
+
+#pipe {
     border-left: 1px solid #D3E2EB;
     height: 30px;
     margin-left: 20px;
     margin-top: 5px;
     /* margin-right: 10px; */
 }
-#emp{
+
+#emp {
     color: #31394B;
     margin-top: 10px;
     margin-left: 15px;
@@ -112,18 +122,19 @@ a:hover::after{
     margin: auto;
     width: 60%;
     height: 600px;
-    margin-top: 100px;                        
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 
 }
-#container > #feature {
+
+#container>#feature {
     width: 60%;
     height: 450px;
     margin-top: 25px;
     padding-left: 25px;
     line-height: 30px;
-    box-shadow:10px 10px 10px 10px lightblue;
+    box-shadow: 10px 10px 10px 10px lightblue;
     margin-right: 20px;
 }
 
@@ -152,43 +163,47 @@ h3 {
     text-align: center;
     cursor: pointer;
 }
-#register:hover{
+
+#register:hover {
     background: red;
     transition: 1s;
 }
+
 #point {
     padding-left: 10px;
 }
 
 .registerimage {
-    position: absolute;    
+    position: absolute;
     width: 227px;
     height: 151px;
-} 
+}
+
 #symRegister {
     text-align: center;
 }
 
 /* form for login css */
 
-#container > .form {
+#container>.form {
     width: 45%;
     height: 300px;
     padding: 5%;
-    box-shadow:10px 10px 10px 10px lightblue;
-    display: flex; 
+    box-shadow: 10px 10px 10px 10px lightblue;
+    display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
     /* width:fit-content; */
-    margin:auto;
+    margin: auto;
 }
 
-.form > input{
+.form>input {
     padding: 0.6rem;
-    width:auto;
+    width: auto;
 }
-.form > .btn{
+
+.form>.btn {
     padding: 0.5rem 0.8rem;
     background-color: violet;
     outline: none;

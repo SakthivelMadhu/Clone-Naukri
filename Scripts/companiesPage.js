@@ -126,9 +126,9 @@ let data = [
     "count": 1,
     "height": 42,
     "width": 42,
-    "title": "Premier Info Assists",
+    "title": "WIPRO",
     "titles": [
-      "Premier Info Assists"
+      "WIPRO"
     ]
   },
   {
@@ -319,8 +319,19 @@ data.forEach((el) => {
 //      }
 //  }
 
+document.querySelector('#job').addEventListener('mouseover', () => {
+  document.querySelector('.hover1').style.display = 'grid';
+})
+document.querySelector('#job').addEventListener('mouseleave', () => {
+  document.querySelector('.hover1').style.display = 'none';
+})
 
-
+document.querySelector('#recruit').addEventListener('mouseover', () => {
+  document.querySelector('.hover2').style.display = 'grid';
+})
+document.querySelector('#recruit').addEventListener('mouseleave', () => {
+  document.querySelector('.hover2').style.display = 'none';
+})
 
 
 getdata();
@@ -335,25 +346,25 @@ async function getdata() {
       // console.log(data);
       let filt = document.querySelectorAll(".filt");
       console.log(filt);
-      let filterData=data;
+      let filterData = data;
       for (let i = 0; i < filt.length; i++) {
         filt[i].addEventListener("change", () => {
           // if (filt[i].checked) {
-            if (filt[i].value == "title") {
-              sortTitle(filterData);
-                //  data kaha se paoge
-            }
-            else if (filt[i].value == "rate") {
-              
-              sortRating(filterData);
-            }
-           else if (filt[i].value == "review") {
+          if (filt[i].value == "title") {
+            sortTitle(filterData);
+            //  data kaha se paoge
+          }
+          else if (filt[i].value == "rate") {
 
-              sortReview(filterData);
-            }else{
-              items(data);
-              
-            }
+            sortRating(filterData);
+          }
+          else if (filt[i].value == "review") {
+
+            sortReview(filterData);
+          } else {
+            items(data);
+
+          }
 
           // }else{
           //   items(data);
@@ -404,11 +415,11 @@ function items(data) {
     //   break;
     // }
     let display_data = `  <div class="task">
-        <div class="content">
-            <img src=${data[i].images} alt="">
+        <div  class="content">
+            <img  src=${data[i].images} alt="">
         </div>
         <div class="actions">
-            <h2>${data[i].title}</h2>
+        <a href="wipro.html" > <h2>${data[i].title}</h2></a>
             <p><i class="fa-solid fa-star"></i><span>${data[i].rating}</span><span> ||</span> <span>${data[i].review}</span>reviews</p>
         </div>
     </div>`;
@@ -420,6 +431,13 @@ function items(data) {
 }
 
 
+// let select=document.querySelectorAll(".task")
+// console.log(select);
+// select.forEach((elem)=>{
+// elem.addEventListener("click",()=>{
+//   window.location.href= "wipro.html"
+// })
+// })
 
 
 
@@ -430,7 +448,7 @@ function items(data) {
 
 
 
-// Pagination 
+// Pagination
 // async function FetchTodoData(data_perpage = 5, page_number = 1) {
 //   try {
 //     let fetch_todo_request = await fetch(`https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari?_limit=${data_perpage}&_page=${page_number}`);
@@ -463,3 +481,7 @@ function items(data) {
 //   }
 //   return array;
 // }
+
+
+// let page=1;
+// le
