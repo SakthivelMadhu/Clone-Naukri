@@ -76,4 +76,14 @@ function RenderData(real_data){
 }
    
 
+// search
+let bag = []
+fetch(url).then((res)=> res.json()).then((data) => bag = data).catch((err) => console.log(err));
 
+function search(){
+   let x = document.querySelector("#input1").value;
+   let newData = bag.filter((element) =>{
+   return element.jobProfilename.toLowerCase().includes(x.toLowerCase());
+   });
+   RenderData(newData)
+}
