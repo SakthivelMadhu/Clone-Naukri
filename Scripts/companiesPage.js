@@ -449,5 +449,39 @@ function items(data) {
 
 
 // Pagination 
+// async function FetchTodoData(data_perpage = 5, page_number = 1) {
+//   try {
+//     let fetch_todo_request = await fetch(`https://636b2f61c07d8f936dafcc0f.mockapi.io/naukari?_limit=${data_perpage}&_page=${page_number}`);
+//     let total_data_count = fetch_todo_request.headers.get("x-total-count");
+//     let total_page_show = Math.ceil(total_data_count / data_perpage)
+//     renderPaginationButtons(total_page_show, page_number);
+//   } catch (error) {
+//     alert("Something went wrong!! Please try again later.");
+//   }
+// }
+// let paginationWrapper = document.querySelector("#pagination-wrapper");
+// function renderPaginationButtons(total_pages) {
+//   paginationWrapper.innerHTML = `<div className="pagination-btn-list">${CreatePagButton(total_pages).join(" ")}</div>`;
+//   let paginationButtons = document.querySelectorAll('.pagination-btn');
+//   for (let paginationButton of paginationButtons) {
+//     paginationButton.addEventListener('click', function (e) {
+//       let page_number = e.target.dataset.id;
+//       let page_limit = document.querySelector(".select-tag").value;
+//       FetchTodoData(page_limit, page_number);
+//     })
+//   }
+// }
+// function getAsButton(text, cls, dataId) {
+//   return `<button class="${cls}" ${dataId ? `data-id = ${dataId}` : ''} >${text}</button>`
+// }
+// function CreatePagButton(total_page) {
+//   let array = [];
+//   for (let page = 1; page <= total_page; page++) {
+//     array.push(getAsButton(page, "pagination-btn", page))
+//   }
+//   return array;
+// }
+
+
 // let page=1;
 // le

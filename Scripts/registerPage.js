@@ -48,7 +48,7 @@ async function RegisterFunction(event) {
     });
     
     if(register_request.ok){
-        alert("Hurry, User has been created !!");
+        alert("Hurry, User has been created.  Please login!");
         window.location.href = "loginPage.html";
     }else{
         alert("Bad request has been made.");
