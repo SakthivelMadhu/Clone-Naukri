@@ -24,8 +24,8 @@ async function RegisterFunction(event) {
       name: document.querySelector("#name").value,
       email: document.querySelector("#email").value,
       pass: document.querySelector("#pass").value,
-      mobile: document.querySelector("#phone").value
-
+      mobile: document.querySelector("#phone").value,
+      access : "active"
     };
     registerArr.push(infoObj);
     sessionStorage.setItem("registedUser", JSON.stringify(registerArr));

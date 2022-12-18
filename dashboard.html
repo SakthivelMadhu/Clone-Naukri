@@ -11,19 +11,71 @@
 
 <body>
   <div id="dashboard">
-    <div id="side_bar">
+
+    <div id="dashboard1">
+    <div id="Nav_bar">
+        <img src="logo/companyLogo.png" />
+        <div>
+          <ion-icon class="Icons" name="storefront-outline"></ion-icon>
+          <p>Dashboard</p>
+        </div>
+        <div>
+          <ion-icon class="Icons" name="search-outline"></ion-icon>
+          <p>Search Jobs</p>
+        </div>
+        <div>
+          <ion-icon class="Icons" name="extension-puzzle-outline"></ion-icon>
+          <p>Applications</p>
+        </div>
+        <div>
+          <ion-icon class="Icons" name="pie-chart-outline"></ion-icon>
+          <p>Statistics</p>
+        </div>
+        <div>
+          <ion-icon class="Icons" name="receipt-outline"></ion-icon>
+          <p>News</p>
+        </div>
+
+    <!-- <div id="side_bar">
       <img src="companyLogo.png" />
       <p>Dashboard</p>
       <p>Search Jobs</p>
       <p>Applications</p>
       <p>Statistics</p>
       <p>News</p>
+    </div> -->
 
-    </div>
+  </div>
     <div id="main_work">
+      <div id="Nav_bar2">
+        <h3 id="title_h3"></h3>
+        <div id="Sub_Workings">
+          <div>Blocked</div>
+          <div>Unblocked</div>
+          <div id="idSortLtoH">Earliest</div>
+          <div id="idSortHtoL">Latest</div>
+        </div>
+      </div>
+      <div id="Append_data">
+        <div id="label_col">
+          <input type="checkbox" class="checkbox">
+          <div>ID</div>
+          <div>E-Mail</div>
+          <div>Name</div>
+          <div>Contact</div>
+          <div>Status</div>
+        </div>
 
+      </div>
     </div>
   </div>
 </body>
 
 </html>
+<script src="Scripts/dashboard.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</html>
+
