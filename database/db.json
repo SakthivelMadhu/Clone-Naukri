@@ -218,6 +218,20 @@
       "id": 31
     },
     {
+<<<<<<< HEAD
+      "sName": "Dan Smith",
+      "sEmail": "MUNMUNSONI03@GMAIL.COM",
+      "sPass": "12345",
+      "sMobile": "0000000000",
+      "id": 32
+    },
+    {
+      "sName": "Meghana soni",
+      "sEmail": "123@gmail.com",
+      "sPass": "23131",
+      "sMobile": "9999900000",
+      "id": 33
+=======
       "sName": "sudeep",
       "sEmail": "sakthi130597@gmail.com",
       "sPass": "123456",
@@ -244,6 +258,7 @@
       "sPass": "0000",
       "sMobile": "7538837154",
       "id": 35
+>>>>>>> 1e584697d51b75efb41c1e7768acceb1f0849b6d
     }
   ],
   "login": [
