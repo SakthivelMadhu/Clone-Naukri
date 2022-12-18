@@ -4,6 +4,7 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 10%),
       0 2px 20px 0 rgb(0 0 0 / 20%);
+      /* align-items: center; */
   }
   #nlogo {
     width: 20%;
@@ -214,8 +215,8 @@ border-radius: 3px;
 
 
 
-/* pagination */
-/* .pagination-wrapper {
+pagination 
+.pagination-wrapper {
   border: 1px dashed #E1E1E1;
   border-radius: 4px;
   margin-top: 16px;
@@ -224,4 +225,30 @@ border-radius: 3px;
   justify-content: center;
   align-items: center;
   padding: 16px;
-} */
+}
+
+.hover1{
+    display: none;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.hover1 h4{
+color: rgb(168, 162, 162) ;
+}
+.hover2{
+  display: none;
+  width: 35%;
+  margin: auto;
+  padding-left: 60px;
+  grid-template-columns: repeat(4,1fr);
+  background-color: whitesmoke;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.hover2 h4{
+  color: rgb(140, 135, 135) ;
+  }
