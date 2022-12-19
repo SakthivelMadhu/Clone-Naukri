@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "fullName": "Sakthivel Madhu",
+      "name": "Sakthivel Madhu",
       "email": "sakthi130597@gmail.com",
       "password": "12345",
       "phone": "1234567890",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "fullName": "Sakthivel M",
+      "name": "Sakthivel M",
       "email": "sakthi130597@gmail.com",
       "password": "12345",
       "phone": "1265917890",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "fullName": "Sakthi",
+      "name": "Sakthi",
       "email": "sakthi130597@gmail.com",
       "password": "12345",
       "phone": "1234864890",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "fullName": "vel ",
+      "name": "vel ",
       "email": "sakthi130597@gmail.com",
       "password": "12345",
       "phone": "1234832890",
@@ -180,33 +180,20 @@
       "id": 26
     },
     {
-      "name": "SAKTHIVEL MADHU",
-      "email": "sakthi130597@gmail.com",
-      "pass": "12345",
-      "mobile": "7538837154",
-      "id": 36
-    },
-    {
-      "name": "SAKTHIVEL MADHU",
-      "email": "asa@gmail.com",
-      "pass": "741852",
-      "mobile": "7538837154",
-      "id": 37
-    },
-    {
-      "name": "SAKTHIVEL MADHU",
-      "email": "sakthi130597@gmail.com",
-      "pass": "741852",
-      "mobile": "7538837154",
-      "id": 38
-    },
-    {
-      "name": "jack",
-      "email": "jack@gmail.com",
-      "pass": "741852963",
-      "phone": "79846512398",
+      "name": "okay",
+      "email": "okayokay@gmail.com",
+      "pass": "8520",
+      "phone": "7538837154",
       "access": "active",
-      "id": 39
+      "id": 27
+    },
+    {
+      "name": "Sakthivel Madhu",
+      "email": "sakthi130597@gmail.com",
+      "pass": "8520",
+      "phone": "976451325",
+      "access": "active",
+      "id": 28
     }
   ],
   "login": [
