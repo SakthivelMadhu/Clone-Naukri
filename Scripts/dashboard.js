@@ -4,7 +4,7 @@ let api = "http://localhost:5000/users";
         let response = await fetch(api);
         let data = await response.json();
         // console.log(data.Search)
-        return appendData(data) 
+        appendData(data) ;
 
       } catch (error) {
         return error;
@@ -47,17 +47,46 @@ function appendData(data) {
       div_4.innerHTML = `${el.mobile}`;
 
       let btn = document.createElement("button");
-      btn.innerHTML = "Unblocked";
+      btn.innerHTML = "Delete";
       btn.className += "toggle_btn";
-      btn.addEventListener("click", function(){
-        btn.innerHTML = "Blocked";;
-    });
+      btn.setAttribute('data-id' , `${el.id}`);
 
       div.append(Checkbox, div_1, div_2, div_3, div_4, btn);
       data_div.append(div);
     });
     
+   let del= document.querySelectorAll(".toggle_btn");
+     del.forEach((elem)=>{
+     //console.log(elem);
+      elem.addEventListener("click",(e)=>{
+     console.log(e);
+      DeleteUser(e.target.dataset.id);
+  })
+  })
+
 }
+
+  
+async function DeleteUser(id) {
+    try {
+      let data = await fetch(`http://localhost:5000/users/${id}`,{
+        method : "DELETE",
+        headers : {
+          "Content-Type" : "application/json",
+          Authorization:  `Bearer ${sessionStorage.getItem("access_token")}`
+        },
+      })
+      if(data.ok){
+        getdata();
+      }else{
+        alert("DELTED");
+      }
+    } catch (error) {
+      alert(error)
+    }
+  }
+
+
 
 let IdSortingHtoL = document.getElementById("idSortHtoL");
 IdSortingHtoL.addEventListener("click", idSortHtoL);
@@ -87,7 +116,8 @@ async function idSortLtoH() {
     appendData(Data2);
   }
 
-
+ 
+  
 
 
   let toggle_btn = document.querySelectorAll(".toggle_btn");
