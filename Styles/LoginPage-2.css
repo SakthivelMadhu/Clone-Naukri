@@ -10,17 +10,16 @@ h2 {
     text-align: center;
 }
 
-#navbar {
+#navbar>div{
     display: flex;
-
+    margin: auto;
     top: 0;
     width: 100%;
     height: 50px;
     overflow: hidden;
-
+    width: 80%;
     padding: 10px 20px;
 }
-
 .middle-nav>div>a {
     text-decoration: none;
     color: #424242;
@@ -209,6 +208,7 @@ input::placeholder {
 }
 
 #pollResult {
+    height: auto;
     margin-bottom: 10px;
     height: 270px;
     width: auto;
@@ -230,7 +230,7 @@ input::placeholder {
     font-weight: lighter;
     margin-top: 12px;
     margin-right: -20px;
-    height: 18px;
+    height: auto;
     color: rgb(255, 99, 142);
     background-color: rgb(255, 242, 241);
 }
@@ -264,7 +264,7 @@ input::placeholder {
     background-color: rgb(208, 228, 255);
     border-radius: 5px;
     height: 8px;
-    width: 50px;
+    width: 30px;
     margin-top: -15px;
 }
 
@@ -297,6 +297,7 @@ input::placeholder {
 
 #Rec-Jobs {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: auto;
     height: 320px;
     width: 100%;
 }
@@ -350,7 +351,7 @@ input::placeholder {
 }
 
 #mi-part3 {
-    width: 50%;
+    width: 60%;
 }
 
 .View {
@@ -568,6 +569,8 @@ input::placeholder {
 
 #rec-conn {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height:auto;
+    width: 100%;
     height: 300px;
     width: 130%;
     margin-top: 20px;
@@ -651,7 +654,7 @@ input::placeholder {
 }
 
 .candi-img {
-    height: 80px;
+    height:80px;
     width: 100%;
     margin-top: 10px;
 }
@@ -671,7 +674,7 @@ input::placeholder {
 
 .candi3 {
 
-    margin-left: -280px;
+   margin-left: -40%;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -736,7 +739,7 @@ input::placeholder {
     font-weight: 300;
     color: rgb(51, 51, 51);
     margin-top: 20px;
-    margin-left: 65px;
+    margin-left: 20%;
 }
 
 #up1 {
