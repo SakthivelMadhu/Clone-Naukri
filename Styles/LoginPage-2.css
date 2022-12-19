@@ -211,13 +211,9 @@ input::placeholder {
 }
 
 #pollResult {
-<<<<<<< HEAD
-
     height: auto;
-=======
     margin-bottom: 10px;
     height: 270px;
->>>>>>> 86a2632c62206915116e16764068bc7670f393bc
     width: auto;
     padding: 0px 20px;
     margin-top: 180px;
@@ -304,11 +300,8 @@ input::placeholder {
 
 #Rec-Jobs {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-<<<<<<< HEAD
     height: auto;
-=======
     height: 320px;
->>>>>>> 86a2632c62206915116e16764068bc7670f393bc
     width: 100%;
 }
 
@@ -579,13 +572,10 @@ input::placeholder {
 
 #rec-conn {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-<<<<<<< HEAD
     height:auto;
     width: 100%;
-=======
     height: 300px;
     width: 130%;
->>>>>>> 86a2632c62206915116e16764068bc7670f393bc
     margin-top: 20px;
 }
 
