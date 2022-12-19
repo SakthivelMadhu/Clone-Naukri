@@ -10,9 +10,6 @@ h2 {
     text-align: center;
 }
 
-#navbar {
-
-}
 #navbar>div{
     display: flex;
     margin: auto;
