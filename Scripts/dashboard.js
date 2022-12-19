@@ -48,7 +48,7 @@ function appendData(data) {
 
       let btn = document.createElement("button");
       btn.innerHTML = "Unblocked";
-      btn.className += "toggle_btn";
+      btn.classList.add("toggle_btn");
       btn.addEventListener("click", function(){
         btn.innerHTML = "Blocked";;
     });
