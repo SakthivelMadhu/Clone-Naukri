@@ -11,7 +11,7 @@ body {
 }
 
 #dashboard {
-    border: 1px solid red;
+
 
     height: auto;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 #side_bar{
-    border: 1px solid black;
+  
     height: 700px;
     width: 15%;
     padding: 10px 40px;
