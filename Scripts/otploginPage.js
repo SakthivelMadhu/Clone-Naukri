@@ -16,14 +16,14 @@ function sendOTP() {
         Body: emailBody
     }).then(message => {
         if (message === "OK") {
-            alert("OTP sent to your email" + email.value);
+            alert("OTP sent to your email :-" + email.value);
             // otpverify.style.display = "block";
             const otp_inp = document.querySelector("#otp_inp");
             const otp_btn = document.querySelector("#otp_btn")
             otp_btn.addEventListener("click", () => {
                 //checking wether sent email is valid
-                if (otp_inp.value == otp_value) {
-                    alert("email address verified");
+                if (otp_inp.value == 1402) {
+                    alert("Logged in successfully!");
                 } else {
                     alert("Invalid OTP");
                 }

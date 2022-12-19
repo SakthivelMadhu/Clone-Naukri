@@ -205,11 +205,12 @@ input::placeholder {
     font: sans-serif;
     font-weight: lighter;
     margin-right: -1px;
+    width:70%;
 }
 
 #pollResult {
-
-    height: 250px;
+    margin-bottom: 10px;
+    height: 270px;
     width: auto;
     padding: 0px 20px;
     margin-top: 180px;
@@ -296,7 +297,7 @@ input::placeholder {
 
 #Rec-Jobs {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    height: 300px;
+    height: 320px;
     width: 100%;
 }
 
@@ -568,7 +569,7 @@ input::placeholder {
 #rec-conn {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     height: 300px;
-    width: 100%;
+    width: 130%;
     margin-top: 20px;
 }
 
@@ -637,7 +638,7 @@ input::placeholder {
 #candi {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     height: auto;
-    width: 100%;
+    width: 130%;
     margin-top: 20px;
 }
 

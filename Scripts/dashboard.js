@@ -44,7 +44,7 @@ function appendData(data) {
       div_3.innerHTML = `${el.name}`;
 
       let div_4 = document.createElement("div");
-      div_4.innerHTML = `${el.mobile}`;
+      div_4.innerHTML = `${el.phone}`;
 
       let btn = document.createElement("button");
       btn.innerHTML = "Unblocked";
@@ -56,8 +56,13 @@ function appendData(data) {
       div.append(Checkbox, div_1, div_2, div_3, div_4, btn);
       data_div.append(div);
     });
+
+    
     
 }
+
+
+
 
 let IdSortingHtoL = document.getElementById("idSortHtoL");
 IdSortingHtoL.addEventListener("click", idSortHtoL);
@@ -110,4 +115,14 @@ async function idSortLtoH() {
     //toggle_checkbox(box_id, tog_status, "completed");
    })
  }
+
+
+
+
+
+
+
+
+
+
 
