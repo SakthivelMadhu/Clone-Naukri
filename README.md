@@ -1,5 +1,8 @@
-# -lazy-base-8555
-use this http for backend datas
+# Naukri Clone : <br>
+A responsive Indian employment website website built with Node.js. Features include user authentication, list of jobs, and Block/UnBlock Users.
+Clone of Naukri.com website where user is able to see different job openings and can apply to various companies.<br>
+
+use this http for backend datas 
 http://localhost:5000/users
 
 Installing npm :<br>
